@@ -1,9 +1,17 @@
-Chat_app is a chatting application with simple GUI. It is based on socket programming and java swing for GUI. 
-In order to run this application you have two ways...
-  1)Open Server.java and Client.java files directly in VSCode and run the project. Always remember to run Server.java file first.
-  2)Using Command Prompt. Type below thing in Command Prompt.
-          javac Server.java
-          java Server
-          javac Client.java
-          java Client.
-To end the Chat Type exit.
+Overview
+  This is a basic chat application implemented in Java with a simple graphical user interface (GUI) using Java Swing. Users can engage in real-time text-based conversations. To exit the chat, simply type "exit" and    press enter.
+
+Features
+  Simple GUI: A user-friendly graphical interface for ease of interaction.
+  Real-time Chat: Users can send and receive messages in real-time.
+  Exit Command: Type "exit" to gracefully end the chat.
+
+Prerequisites
+  Java Development Kit (JDK) installed on your machine.
+  A Java IDE for compiling and running the code.
+
+How to Use
+  First run Server.java file, the GUI will appear.
+  After Server.java file, run Client.java file the GUI will appear.
+  Type your messages in the input field and press Enter to send a message.
+  To exit the chat, type "exit" in the input field and press Enter.
